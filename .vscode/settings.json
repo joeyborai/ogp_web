@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2879963c-4810-4793-9862-298342193a11/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/theogp",
+    "appService.deploySubpath": "."
+}

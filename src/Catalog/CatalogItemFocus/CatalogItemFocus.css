@@ -1,0 +1,18 @@
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 1050;
+  background-color: #5CDB95;
+  overflow-y: hidden;
+  top: 0;
+  left: 0;
+}
+
+.modal-content {
+  background-color: #f8f8ff;
+/*  width: 50%;
+  height: 50%; */
+  display: block;
+  align: center;
+}

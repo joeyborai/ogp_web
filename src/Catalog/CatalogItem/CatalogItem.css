@@ -1,0 +1,37 @@
+button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+}
+
+.catalogItem {
+  background-color: #f8f8ff;
+  display: block;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  /*position: absolute;*/
+}
+
+.catalog-pic {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: solid;
+  border-color: #808080;
+  border-width: 2px;
+}
+
+.catalog-item-name {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.catalog-item-price {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+  text-align: left;
+}

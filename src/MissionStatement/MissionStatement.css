@@ -1,0 +1,38 @@
+.missionStatement {
+  height: 100%;
+  width: 40%;
+  padding: 10px;
+  position: center;
+  background-color: #f8f8ff;
+  border-radius: 15px;
+}
+
+.missionText {
+  color: #05386B;
+  border-bottom: solid;
+  border-color: #05386B;
+  border-width: 1.5px;
+  padding: 50px;
+}
+
+.arrow {
+  border: solid #05386B;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;
+  padding-top: 4px;
+  margin-top: 0px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.catalogIndicator {
+  font-weight: bold;
+  color: #05386B;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  margin-top: 10%;
+}

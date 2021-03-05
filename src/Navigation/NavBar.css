@@ -1,0 +1,31 @@
+#navbar {
+  overflow: hidden;
+/*  background-color: #5CDB95; */
+}
+
+.top-left-logo {
+  float: left;
+  display: block;
+  width: 3%;
+  height: 3%;
+  padding: 20px;
+}
+
+.shopping-icon {
+  float: right;
+  padding: 20px;
+  font-size: 150%;
+  color: #05386B;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
