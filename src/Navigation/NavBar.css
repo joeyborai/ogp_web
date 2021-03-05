@@ -1,5 +1,5 @@
 #navbar {
-  overflow: hidden;
+/*  overflow: hidden;  */
 /*  background-color: #5CDB95; */
 }
 
@@ -28,4 +28,25 @@
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+@media (max-width: 800px) {
+  .top-left-logo {
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+  }
+
+  .shopping-icon {
+    float: right;
+    padding: 20px;
+    font-size: 30px;
+    color: #05386B;
+  }
+
+  .content {
+    padding: 16px;
+  }
 }

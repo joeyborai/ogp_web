@@ -1,6 +1,5 @@
 import React from 'react';
 import { CatalogItem } from './CatalogItem/CatalogItem.js';
-import { CatalogItemFocus } from './CatalogItemFocus/CatalogItemFocus';
 import './Catalog.css';
 
 export class Catalog extends React.Component {
@@ -24,10 +23,7 @@ export class Catalog extends React.Component {
 
 
     const images = catalog_list.map(item => (
-      <div>
-        <CatalogItemFocus item={item}/>
-        <CatalogItem item={item}/>
-      </div>
+      <CatalogItem item={item}/>
     ));
 
     return (

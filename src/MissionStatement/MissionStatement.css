@@ -2,6 +2,7 @@
   height: 100%;
   width: 40%;
   padding: 10px;
+  font-size: 25px;
   position: center;
   background-color: #f8f8ff;
   border-radius: 15px;
@@ -35,4 +36,24 @@
   padding-bottom: 0px;
   margin-bottom: 10px;
   margin-top: 10%;
+}
+
+@media (max-width: 479px) {
+  .missionStatement {
+    height: 90%;
+    width: 65%;
+    padding: 10px;
+    font-size: 90%;
+    position: center;
+    background-color: #f8f8ff;
+    border-radius: 15px;
+  }
+
+  .missionText {
+    color: #05386B;
+    border-bottom: solid;
+    border-color: #05386B;
+    border-width: 1.5px;
+    padding: 10px;
+  }
 }
