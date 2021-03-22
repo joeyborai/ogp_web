@@ -22,7 +22,9 @@ export class Catalog extends React.Component {
   };
 
   componentDidMount() {
-    fetch('http://ogp-web.herokuapp.com/catalog/')
+    fetch('http://ogp-web.herokuapp.com/catalog/', {
+      mode: 'no-cors'
+    })
     .then((res) => res.json())
     .then((data) => {
       for(var i = 0; i < data.length; i++){
