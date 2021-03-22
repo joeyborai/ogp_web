@@ -6,6 +6,7 @@ import { MissionStatement } from './MissionStatement/MissionStatement.js';
 import { Catalog } from './Catalog/Catalog.js';
 import { ItemDisplay } from './ItemDisplay/ItemDisplay.js';
 import { ItemForm } from './ItemForm/ItemForm.js';
+import { ContactInfo } from './ContactInfo/ContactInfo.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class App extends React.Component {
         <MissionStatement />
       </div>
       <Catalog/>
+      <ContactInfo/>
     </div>
   )
 
@@ -39,10 +41,12 @@ class App extends React.Component {
 
   render() {
     return (
+      <div className="background">
       <div className="App">
         { this.state.current_view === 'main' ? this.main : null }
         { this.state.current_view === 'item' ? this.item : null }
         { this.state.current_view === 'cart' ? this.cart : null }
+      </div>
       </div>
     );
   }

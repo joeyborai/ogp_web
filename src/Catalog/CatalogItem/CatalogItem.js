@@ -1,32 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CatalogItemFocus } from './CatalogItemFocus/CatalogItemFocus';
 import './CatalogItem.css';
 
-export class CatalogItem extends React.Component {
-  constructor(props) {
-    super(props);
-    this.selectItem = this.selectItem.bind(this);
-    this.state = {
-      active: false
-    }
-  }
+export const CatalogItem = (props) => {
+  const [active, setActivity] = useState(false);
 
-  selectItem() {
-    this.setState({
-      active: true
-    })
-  }
-
-  render() {
-    return (
-      <div>
-      <CatalogItemFocus item={this.props.item} active={this.state.active}/>
-      <button className="catalogItem" onClick={ this.selectItem }>
-        <img className="catalog-pic" src={this.props.item.src}></img>
-        <p className="catalog-item-name">{this.props.item.name}</p>
-        <p className="catalog-item-price">{this.props.item.price}</p>
+  return (
+    <div>
+      <CatalogItemFocus item={props.item} active={ active } closeItem={ setActivity }/>
+      <button className="catalogItem" onClick={ () => setActivity(!active) }>
+        <img className="catalog-pic" src={props.item.src}></img>
+        <p className="catalog-item-name">{props.item.name}</p>
+        <p className="catalog-item-price">{props.item.price}</p>
       </button>
-      </div>
-    )
-  }
+    </div>
+  )
 }

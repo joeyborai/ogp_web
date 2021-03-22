@@ -1,0 +1,12 @@
+.contact-container {
+  padding-top: 10px;
+  height: 10%;
+  width: 100%;
+  margin: auto;
+  background-color: #f8f8ff;
+}
+
+.contact-link {
+  color: #0B0080;
+  text-decoration: none;
+}

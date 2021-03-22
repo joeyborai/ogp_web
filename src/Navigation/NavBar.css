@@ -6,15 +6,15 @@
 .top-left-logo {
   float: left;
   display: block;
-  width: 3%;
-  height: 3%;
-  padding: 20px;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
 }
 
 .shopping-icon {
   float: right;
-  padding: 20px;
-  font-size: 150%;
+  padding: 10px;
+  font-size: 60px;
   color: #05386B;
 }
 
@@ -34,15 +34,15 @@
   .top-left-logo {
     float: left;
     display: block;
-    width: 30px;
-    height: 30px;
-    padding: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
   }
 
   .shopping-icon {
     float: right;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 35px;
     color: #05386B;
   }
 
